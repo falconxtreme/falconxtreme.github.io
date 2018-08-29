@@ -1,0 +1,75 @@
+body{
+	background-color: #000000;
+}
+
+.miImagen {
+	width: 726px;
+	height: 500px;
+	margin-top: -250px;
+	margin-left: -336px;
+	left: 50%;
+	top: 50%;
+	position: absolute;
+	animation-name: imagen;
+	animation-duration: 3s;
+}
+
+.cus-container{
+	width: 726px;
+	height: 100px;
+	margin-top: 270px;
+	margin-left: -336px;
+	left: 50%;
+	top: 50%;
+	position: absolute;
+}
+
+.cus-container-2{
+	width: 726px;
+	height: 100px;
+	margin-top: 270px;
+	margin-left: 220px;
+	left: 50%;
+	top: 50%;
+	position: absolute;
+}
+
+@keyframes imagen{
+	from{
+		opacity: 0;
+		transform: scale(.1) rotate(0deg);
+	}
+
+	to{
+		opacity: 1;
+		transform: scale(1) rotate(360deg);
+	}
+}
+
+@media only screen and (max-width: 768px){
+	.miImagen {
+		width: 626px;
+		height: 450px;
+		margin-top: -225px;
+		margin-left: -313px;
+		left: 50%;
+		top: 50%;
+		position: absolute;
+		animation-name: imagen;
+		animation-duration: 3s;
+	}
+}
+
+@media only screen and (max-width: 600px){
+	.miImagen {
+		width: 526px;
+		height: 400px;
+		margin-top: -200px;
+		margin-left: -263px;
+		left: 50%;
+		top: 50%;
+		position: absolute;
+		animation-name: imagen;
+		animation-duration: 3s;
+	}
+}
