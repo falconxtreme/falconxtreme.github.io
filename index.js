@@ -2,7 +2,7 @@
 	var imagenes = [
 		'img/IMG_8926.jpg',
 		//'img/IMG_8928.jpg',
-		'img/IMG_8938.JPG'
+		'img/IMG_8938.jpg'
 	];
 	var indiceInicial =0;
 	$("#btnRecepcion").hide();
@@ -30,7 +30,7 @@
 		$('#lblTituloModal').text("Mi Matrimonio!!!");
 		document.getElementById("lblCuerpoModal").innerHTML = "Espero tu pronta Confirmación!!!";
 		$('#miModal').modal('show')
-		$('#miImagenModal').attr('src','img/IMG_8940.JPG');
+		$('#miImagenModal').attr('src','img/IMG_8940.jpg');
 	});
 
 	var miColectivo = document.getElementById("btnColectivo");
