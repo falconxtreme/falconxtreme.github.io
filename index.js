@@ -15,14 +15,17 @@
 		//$('#lblTituloModal').text("Mi Matrimonio!!!");
 		//document.getElementById("lblCuerpoModal").innerHTML = "Espero tu pronta Confirmación!!!";
 		//$('#miModal').modal('show')
+		$('#miImagen').attr('src',imagenes[indiceInicial]);
 		if(indiceInicial==0){
 			$("#btnRecepcion").hide();
 			$("#btnColectivo").hide();
+			$('#miImagen').css("animation-name","imagen");
 		}else{
 			$("#btnRecepcion").show();
 			$("#btnColectivo").show();
+			$('#miImagen').css("animation-name","imagenPosterior");
 		}
-		$('#miImagen').attr('src',imagenes[indiceInicial]);
+		
 	});
 
 	var miRecepcion = document.getElementById("btnRecepcion");
