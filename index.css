@@ -99,4 +99,58 @@ body{
 		animation-name: imagen;
 		animation-duration: 3s;
 	}
+
+	.cus-container{
+		width: 440px;
+		height: 100px;
+		margin-top: 270px;
+		margin-left: -220px;
+		left: 50%;
+		top: 50%;
+		position: absolute;
+	}
+
+	.cus-container-2{
+		width: 440px;
+		height: 100px;
+		margin-top: 270px;
+		margin-left: 120px;
+		left: 50%;
+		top: 50%;
+		position: absolute;
+	}
+}
+
+@media only screen and (max-width: 400px){
+	.miImagen {
+		width: 390px;
+		height: 300px;
+		margin-top: -150px;
+		margin-left: -195px;
+		left: 50%;
+		top: 50%;
+		position: absolute;
+		animation-name: imagen;
+		animation-duration: 3s;
+	}
+
+	.cus-container{
+		width: 390px;
+		height: 100px;
+		margin-top: 270px;
+		margin-left: -195px;
+		left: 50%;
+		top: 50%;
+		position: absolute;
+	}
+
+	.cus-container-2{
+		width: 390px;
+		height: 100px;
+		margin-top: 270px;
+		margin-left: 120px;
+		left: 50%;
+		top: 50%;
+		position: absolute;
+	}
 }
