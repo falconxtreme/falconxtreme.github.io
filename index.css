@@ -85,3 +85,18 @@ body{
 		animation-duration: 3s;
 	}
 }
+
+
+@media only screen and (max-width: 450px){
+	.miImagen {
+		width: 440px;
+		height: 360px;
+		margin-top: -180px;
+		margin-left: -220px;
+		left: 50%;
+		top: 50%;
+		position: absolute;
+		animation-name: imagen;
+		animation-duration: 3s;
+	}
+}
