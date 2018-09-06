@@ -3,10 +3,10 @@ body{
 }
 
 .miImagen {
-	width: 726px;
-	height: 500px;
-	margin-top: -250px;
-	margin-left: -336px;
+	width: 800px;
+	height: 530px;
+	margin-top: -265px;
+	margin-left: -400px;
 	left: 50%;
 	top: 50%;
 	position: absolute;
@@ -15,23 +15,27 @@ body{
 }
 
 .cus-container{
-	width: 726px;
+	width: 800px;
 	height: 100px;
 	margin-top: 270px;
-	margin-left: -336px;
+	margin-left: -400px;
 	left: 50%;
 	top: 50%;
 	position: absolute;
 }
 
 .cus-container-2{
-	width: 726px;
+	width: 800px;
 	height: 100px;
 	margin-top: 270px;
 	margin-left: 220px;
 	left: 50%;
 	top: 50%;
 	position: absolute;
+}
+
+.modal-cus{
+	width: 726px !important;
 }
 
 @keyframes imagen{
@@ -58,41 +62,145 @@ body{
 	}
 }
 
-@media only screen and (max-width: 768px){
+@media only screen and (min-width: 1000px){
 	.miImagen {
-		width: 626px;
+		width: 800px;
+		height: 530px;
+		margin-top: -265px;
+		margin-left: -400px;
+		left: 50%;
+		top: 50%;
+		position: absolute;
+		animation-name: imagen;
+		animation-duration: 3s;
+	}
+
+	.cus-container{
+		width: 800px;
+		height: 80px;
+		margin-top: 280px;
+		margin-left: -400px;
+		left: 50%;
+		top: 50%;
+		position: absolute;
+	}
+
+	.cus-container-2{
+		width: 800px;
+		height: 80px;
+		margin-top: 280px;
+		margin-left: 220px;
+		left: 50%;
+		top: 50%;
+		position: absolute;
+	}
+
+	.modal-cus{
+		width: 690px !important;
+		margin-left: 340px !important;
+	}
+
+	#miImagenModal{
+		width: 480px;
+		height: 280px;
+	}
+}
+
+@media only screen and (min-width: 768px) and (max-width: 1000px){
+	.miImagen {
+		width: 760px;
 		height: 450px;
 		margin-top: -225px;
-		margin-left: -313px;
+		margin-left: -380px;
 		left: 50%;
 		top: 50%;
 		position: absolute;
 		animation-name: imagen;
 		animation-duration: 3s;
 	}
+
+	.cus-container{
+		width: 760px;
+		height: 80px;
+		margin-top: 230px;
+		margin-left: -380px;
+		left: 50%;
+		top: 50%;
+		position: absolute;
+	}
+
+	.cus-container-2{
+		width: 760px;
+		height: 80px;
+		margin-top: 230px;
+		margin-left: 185px;
+		left: 50%;
+		top: 50%;
+		position: absolute;
+	}
+
+	.modal-cus{
+		width: 670px !important;
+		margin-top: -340px !important;
+	}
+
+	#miImagenModal{
+		width: 480px;
+		height: 280px;
+	}
 }
 
-@media only screen and (max-width: 600px){
+@media only screen and (min-width: 600px) and (max-width: 768px){
 	.miImagen {
-		width: 526px;
-		height: 400px;
-		margin-top: -200px;
-		margin-left: -263px;
+		width: 596px;
+		height: 430px;
+		margin-top: -215px;
+		margin-left: -298px;
 		left: 50%;
 		top: 50%;
 		position: absolute;
 		animation-name: imagen;
 		animation-duration: 3s;
 	}
+
+	.cus-container{
+		width: 596px;
+		height: 80px;
+		margin-top: 230px;
+		margin-left: -298px;
+		left: 50%;
+		top: 50%;
+		position: absolute;
+	}
+
+	.cus-container-2{
+		width: 596px;
+		height: 80px;
+		margin-top: 230px;
+		margin-left: 145px;
+		left: 50%;
+		top: 50%;
+		position: absolute;
+	}
+
+	.modal-cus{
+		width: 670px !important;
+		margin-top: -320px !important;
+	}
+
+	#miImagenModal{
+		width: 460px;
+		height: 260px;
+	}
 }
 
 
-@media only screen and (max-width: 450px){
+@media only screen and (min-width: 450px) and (max-width: 600px){
 	.miImagen {
-		width: 440px;
+		width: 445px;
 		height: 360px;
 		margin-top: -180px;
-		margin-left: -220px;
+		margin-left: -222px;
 		left: 50%;
 		top: 50%;
 		position: absolute;
@@ -102,9 +210,9 @@ body{
 
 	.cus-container{
 		width: 440px;
-		height: 100px;
-		margin-top: 270px;
-		margin-left: -220px;
+		height: 80px;
+		margin-top: 190px;
+		margin-left: -222px;
 		left: 50%;
 		top: 50%;
 		position: absolute;
@@ -112,16 +220,26 @@ body{
 
 	.cus-container-2{
 		width: 440px;
-		height: 100px;
-		margin-top: 270px;
-		margin-left: 120px;
+		height: 80px;
+		margin-top: 190px;
+		margin-left: 45px;
 		left: 50%;
 		top: 50%;
 		position: absolute;
 	}
+
+	.modal-cus{
+		width: 460px !important;
+		margin-top: -230px !important;
+	}
+
+	#miImagenModal{
+		width: 410px;
+		height: 230px;
+	}
 }
 
-@media only screen and (max-width: 400px){
+@media only screen and (min-width: 400px) and (max-width: 450px){
 	.miImagen {
 		width: 390px;
 		height: 300px;
@@ -136,8 +254,8 @@ body{
 
 	.cus-container{
 		width: 390px;
-		height: 100px;
-		margin-top: 270px;
+		height: 80px;
+		margin-top: 170px;
 		margin-left: -195px;
 		left: 50%;
 		top: 50%;
@@ -146,11 +264,65 @@ body{
 
 	.cus-container-2{
 		width: 390px;
-		height: 100px;
-		margin-top: 270px;
-		margin-left: 120px;
+		height: 80px;
+		margin-top: 170px;
+		margin-left: 25px;
 		left: 50%;
 		top: 50%;
 		position: absolute;
+	}
+
+	.modal-cus{
+		width: 410px !important;
+		margin-top: -200px !important;
+	}
+
+	#miImagenModal{
+		width: 370px;
+		height: 220px;
+	}
+}
+
+@media only screen and (min-width: 350px) and (max-width: 400px){
+	.miImagen {
+		width: 350px;
+		height: 240px;
+		margin-top: -120px;
+		margin-left: -175px;
+		left: 50%;
+		top: 50%;
+		position: absolute;
+		animation-name: imagen;
+		animation-duration: 3s;
+	}
+
+	.cus-container{
+		width: 350px;
+		height: 80px;
+		margin-top: 140px;
+		margin-left: -175px;
+		left: 50%;
+		top: 50%;
+		position: absolute;
+	}
+
+	.cus-container-2{
+		width: 350px;
+		height: 80px;
+		margin-top: 140px;
+		margin-left: 20px;
+		left: 50%;
+		top: 50%;
+		position: absolute;
+	}
+
+	.modal-cus{
+		width: 390px !important;
+		margin-top: -200px !important;
+	}
+
+	#miImagenModal{
+		width: 340px;
+		height: 200px;
 	}
 }
